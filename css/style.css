@@ -567,7 +567,7 @@ body {
     padding-top: 18px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .sidebar {
     margin-top: 82px;
   }
@@ -579,7 +579,7 @@ body {
     margin-right: 5px;
   }
   .header__search input {
-    width: 148px;
+    width: 200px;
     height: 35px;
     padding-left: 30px;
   }
@@ -600,6 +600,12 @@ body {
   .header__search {
     height: 50px;
   }
+}
+@media (max-width: 540px) {
+  .header__search input {
+    width: 148px;
+  }
+
   .user__manual {
     margin-top: 28.5px;
   }
