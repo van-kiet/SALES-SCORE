@@ -617,7 +617,6 @@ body {
     width: 82px;
     height: 93px;
   }
-  /* sdsd */
   .main__title h1 {
     font-size: 22px;
   }
@@ -712,7 +711,73 @@ body {
     padding-bottom: 53px;
   }
 }
-
+@media (max-width: 360px) {
+  .header__search label {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+  .header__search input {
+    width: 130px;
+  }
+  .header__search button {
+    width: 44px;
+    height: 24px;
+    font-size: 9px;
+    margin-left: 5px;
+  }
+  .header__search input::placeholder {
+    font-size: 9px;
+  }
+  .header__search i {
+    left: 11px;
+    top: 11px;
+    font-size: 13px;
+  }
+  .user__manual__top__child img {
+    width: 120px;
+    height: 79px;
+  }
+  .main__title h1 {
+    font-size: 20px;
+  }
+  .main__title p {
+    font-size: 10px;
+  }
+  .user__manual__bottom__grid .grid__item h2 {
+    font-size: 9px;
+  }
+  .main__function__bottom__card:nth-of-type(2)
+    .main__function__bottom__item:last-of-type
+    h3 {
+    width: 134px;
+  }
+  .main__function__bottom__card:nth-of-type(3)
+    .main__function__bottom__item:first-of-type
+    h3 {
+    width: 62px;
+  }
+  .main__function__bottom__card:nth-of-type(3)
+    .main__function__bottom__item:last-of-type
+    h3 {
+    width: 152px;
+  }
+  .main__function__bottom__card:nth-of-type(4)
+    .main__function__bottom__item
+    h3 {
+    width: 98px;
+  }
+  .main__function__bottom__item p:not(:first-child) {
+    margin-top: 10px;
+  }
+  .user__manual__bottom__grid .grid__item {
+    padding: 10px 5px 10px 5px;
+    height: 80px;
+  }
+  .explain__top__child img {
+    width: 62px;
+    height: 73px;
+  }
+}
 @keyframes moveRight {
   from {
     left: -250px;
